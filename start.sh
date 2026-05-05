@@ -194,22 +194,9 @@ if [ "$OLLAMA_ALREADY_RUNNING" = false ] && pgrep -x ollama &>/dev/null; then
 fi
 
 # =============================================================================
-# Step 5: Model Pull
+# Step 5: Start ollama serve
 # =============================================================================
-header "Model: $MODEL"
-
-log "Checking if $MODEL is cached..."
-if ollama list 2>/dev/null | grep -q "$MODEL"; then
-  ok "$MODEL already cached — no download needed"
-else
-  log "Pulling $MODEL (this may take several minutes on first run)..."
-  log "Size: qwen3:8b at Q4_K_M ≈ 5.2GB download"
-  ollama pull "$MODEL"
-  ok "$MODEL pull complete"
-fi
-
-# =============================================================================
-# Step 6: Start ollama serve
+# Server must be running BEFORE we attempt ollama pull or ollama list.
 # =============================================================================
 header "Ollama Server"
 
@@ -221,15 +208,35 @@ else
   ollama serve &>"$LOG_FILE" &
   OLLAMA_PID=$!
   echo "$OLLAMA_PID" > "$PID_FILE"
-  # Give the server 2 seconds to come up
-  sleep 2
-  if kill -0 "$OLLAMA_PID" 2>/dev/null; then
-    ok "ollama serve started (PID $OLLAMA_PID)"
-  else
-    err "ollama serve failed to start. Check logs: cat $LOG_FILE"
-    rm -f "$PID_FILE"
-    exit 1
-  fi
+  # Wait up to 10s for the server to be ready
+  log "Waiting for ollama server to be ready..."
+  for i in {1..10}; do
+    if curl -sf http://localhost:11434/api/tags &>/dev/null; then
+      ok "ollama serve ready (PID $OLLAMA_PID)"
+      break
+    fi
+    sleep 1
+    if [ "$i" -eq 10 ]; then
+      err "ollama serve did not become ready in 10s. Check logs: cat $LOG_FILE"
+      rm -f "$PID_FILE"
+      exit 1
+    fi
+  done
+fi
+
+# =============================================================================
+# Step 6: Model Pull
+# =============================================================================
+header "Model: $MODEL"
+
+log "Checking if $MODEL is cached..."
+if ollama list 2>/dev/null | grep -q "$MODEL"; then
+  ok "$MODEL already cached — no download needed"
+else
+  log "Pulling $MODEL (this may take several minutes on first run)..."
+  log "Size: qwen3:8b at Q4_K_M ≈ 5.2GB download"
+  ollama pull "$MODEL"
+  ok "$MODEL pull complete"
 fi
 
 # =============================================================================
