@@ -28,6 +28,7 @@ YELLOW='\033[1;33m'
 GREEN='\033[0;32m'
 CYAN='\033[0;36m'
 BOLD='\033[1m'
+DIM='\033[2m'
 NC='\033[0m'
 
 # --- Defaults ---
@@ -261,7 +262,8 @@ echo -e "${BOLD}${GREEN}║${NC}  VRAM:    ${CYAN}${VRAM_USED:-?}MB used / ${VRA
 echo -e "${BOLD}${GREEN}║${NC}  Python:  ${CYAN}${UV_ENV_PATH}${NC}"
 echo -e "${BOLD}${GREEN}║${NC}  Ollama:  ${CYAN}http://localhost:11434${NC}"
 echo -e "${BOLD}${GREEN}╠══════════════════════════════════════════════╣${NC}"
-echo -e "${BOLD}${GREEN}║${NC}  Run:   ${CYAN}uv run python main.py${NC}"
+echo -e "${BOLD}${GREEN}║${NC}  Run:   ${CYAN}uv run python -m cli.main run${NC}  ${DIM}← interactive dashboard${NC}"
+echo -e "${BOLD}${GREEN}║${NC}  Test:  ${CYAN}uv run python main.py${NC}          ${DIM}← milestone smoke test${NC}"
 echo -e "${BOLD}${GREEN}║${NC}  Stop:  ${CYAN}./stop.sh${NC}"
 echo -e "${BOLD}${GREEN}║${NC}  Cost:  ${CYAN}./cost-profiler.sh${NC}"
 echo -e "${BOLD}${GREEN}╚══════════════════════════════════════════════╝${NC}"
