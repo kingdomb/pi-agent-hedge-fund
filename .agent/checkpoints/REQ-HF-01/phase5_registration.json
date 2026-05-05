@@ -3,11 +3,11 @@
   "phase_name": "registration",
   "req_id": "REQ-HF-01",
   "agent": "devops-engineer",
-  "timestamp": "2026-05-05T04:59:05.271671+00:00",
+  "timestamp": "2026-05-05T05:29:02.344915+00:00",
   "workflow": "create-req",
   "ledger_updated": true,
   "user_stories_updated": true,
   "phase_docs_updated": true,
   "github_issue_created": true,
-  "integrity_hash": "097f8bb3c329cc59"
+  "integrity_hash": "b14d8985d02e23df"
 }
