@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-07",
+  "agent": "product-manager",
+  "timestamp": "2026-02-25T20:24:55.955369+00:00",
+  "workflow": "create-req",
+  "layer_identified": "SEC",
+  "stakeholder_intent": "Rate limiting on MFA OTP verify endpoint to prevent brute-force of 6-digit codes",
+  "duplicate_check": true,
+  "integrity_hash": "97ef20d587b686bf"
+}

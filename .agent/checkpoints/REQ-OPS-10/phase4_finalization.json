@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-OPS-10",
+  "agent": "board_scribe_release",
+  "timestamp": "2026-02-13T02:41:11.146132+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "5561229a51575d14"
+}

@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L3-13",
+  "agent": "backend-specialist",
+  "timestamp": "2026-02-12T19:19:13.532632+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "M",
+  "moscow_priority": "SHOULD",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "4385f73263ab63f8"
+}

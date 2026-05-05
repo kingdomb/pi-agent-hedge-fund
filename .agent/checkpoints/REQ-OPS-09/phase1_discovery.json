@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-OPS-09",
+  "agent": "backend-specialist",
+  "timestamp": "2026-02-12T18:55:16.828767+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Expand tenant onboarding to include Concierge Agent provisioning",
+  "duplicate_check": true,
+  "integrity_hash": "ec76b7a58bbde28a"
+}

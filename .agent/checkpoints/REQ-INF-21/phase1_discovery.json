@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-INF-21",
+  "agent": "backend-specialist",
+  "timestamp": "2026-02-13T17:30:59.160002+00:00",
+  "workflow": "create-req",
+  "duplicate_check": true,
+  "layer_identified": true,
+  "stakeholder_intent": true,
+  "integrity_hash": "6e53b58e18d896ae"
+}

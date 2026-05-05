@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-05",
+  "agent": "product-manager",
+  "timestamp": "2026-02-16T03:34:54.884506+00:00",
+  "workflow": "create-req",
+  "layer_identified": "SEC",
+  "stakeholder_intent": "Refresh Token Rotation with Reuse Detection for sovereign auth hardening",
+  "duplicate_check": true,
+  "integrity_hash": "92ba37b368415931"
+}

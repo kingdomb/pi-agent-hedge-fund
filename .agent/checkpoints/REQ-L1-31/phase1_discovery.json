@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L1-31",
+  "agent": "frontend-specialist",
+  "timestamp": "2026-02-16T03:14:34.058304+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L1",
+  "stakeholder_intent": "Replace Date.now() IDs with unique IDs to prevent React duplicate key warnings",
+  "duplicate_check": true,
+  "integrity_hash": "eacb3f4ee12fe928"
+}

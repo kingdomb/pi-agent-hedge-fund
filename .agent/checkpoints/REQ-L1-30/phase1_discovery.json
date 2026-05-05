@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L1-30",
+  "agent": "product-manager",
+  "timestamp": "2026-02-11T06:17:51.435873+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L1",
+  "stakeholder_intent": "Backend SSE endpoint for ActivityFeed widget that currently 404s",
+  "duplicate_check": true,
+  "integrity_hash": "665f0ca41d80672d"
+}

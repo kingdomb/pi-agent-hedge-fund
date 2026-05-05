@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-INF-28",
+  "agent": "board_scribe_release",
+  "timestamp": "2026-04-15T00:17:25.383163+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "038db31f8330b25d"
+}

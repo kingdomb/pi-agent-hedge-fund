@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-L5-10",
+  "agent": "board_scribe_release",
+  "timestamp": "2026-02-07T06:38:24.172552+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "f173094797b7d448"
+}

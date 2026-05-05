@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-10",
+  "agent": "product-manager",
+  "timestamp": "2026-02-27T01:24:50.978072+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Role-based access control for employees",
+  "duplicate_check": true,
+  "integrity_hash": "5c8b63b5d336a5c9"
+}

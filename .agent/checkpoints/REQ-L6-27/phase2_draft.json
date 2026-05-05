@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L6-27",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:19:13.619210+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "S",
+  "moscow_priority": "SHOULD",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "2841cce0302d78f5"
+}

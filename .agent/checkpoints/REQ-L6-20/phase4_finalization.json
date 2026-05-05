@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-L6-20",
+  "agent": "test-engineer",
+  "timestamp": "2026-03-01T21:58:42.977977+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "238403a8cdb26516"
+}

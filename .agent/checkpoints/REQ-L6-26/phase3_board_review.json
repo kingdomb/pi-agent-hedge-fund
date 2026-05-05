@@ -1,0 +1,34 @@
+{
+  "phase": 3,
+  "phase_name": "board_review",
+  "req_id": "REQ-L6-26",
+  "agent": "orchestrator",
+  "timestamp": "2026-02-12T19:15:53.352266+00:00",
+  "workflow": "create-req",
+  "orchestrator_invoked": true,
+  "board_votes": {
+    "board_csa_architect": {
+      "decision": "APPROVE",
+      "notes": "UI needed.",
+      "timestamp": "2026-02-12T19:15:48.282006+00:00"
+    },
+    "board_ciso_cybersecurity": {
+      "decision": "APPROVE",
+      "notes": "Visibility reduces risk.",
+      "timestamp": "2026-02-12T19:15:49.024041+00:00"
+    },
+    "board_caio_fullstack": {
+      "decision": "APPROVE",
+      "notes": "Approved.",
+      "timestamp": "2026-02-12T19:15:49.717355+00:00"
+    },
+    "board_vp_ops_devops": {
+      "decision": "APPROVE",
+      "notes": "Approved.",
+      "timestamp": "2026-02-12T19:15:50.374613+00:00"
+    }
+  },
+  "quorum_reached": true,
+  "integrity_hash": "9b1a733339dbf48f",
+  "approval_percentage": 100.0
+}

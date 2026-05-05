@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-17",
+  "agent": "orchestrator",
+  "timestamp": "2026-02-12T19:15:17.015658+00:00",
+  "workflow": "create-req",
+  "layer_identified": "2",
+  "stakeholder_intent": "Activation Trigger System",
+  "duplicate_check": true,
+  "integrity_hash": "e4797df13623ca3e"
+}

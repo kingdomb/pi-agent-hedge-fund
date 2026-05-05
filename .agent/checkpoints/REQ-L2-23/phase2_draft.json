@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L2-23",
+  "agent": "product-manager",
+  "timestamp": "2026-03-18T21:23:13.146652+00:00",
+  "workflow": "create-req",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "effort_estimate": true,
+  "integrity_hash": "99553c6eb392416f"
+}

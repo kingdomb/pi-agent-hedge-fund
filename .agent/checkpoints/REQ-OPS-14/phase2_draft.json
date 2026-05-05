@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-OPS-14",
+  "agent": "product-manager",
+  "timestamp": "2026-04-08T06:17:52.427992+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "S",
+  "moscow_priority": "MUST",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "e586478553823798"
+}

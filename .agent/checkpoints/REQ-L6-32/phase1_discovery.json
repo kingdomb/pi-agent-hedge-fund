@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-32",
+  "agent": "project-planner",
+  "timestamp": "2026-02-24T23:01:21.187756+00:00",
+  "workflow": "create-req",
+  "duplicate_check": true,
+  "layer_identified": true,
+  "stakeholder_intent": true,
+  "integrity_hash": "74175c38089caf3b"
+}

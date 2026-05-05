@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L2-09",
+  "agent": "test-engineer",
+  "timestamp": "2026-04-10T01:15:36.175747+00:00",
+  "workflow": "create-req",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "effort_estimate": true,
+  "integrity_hash": "8ab885796a2eb524"
+}

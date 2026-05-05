@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-26",
+  "agent": "product-manager",
+  "timestamp": "2026-04-08T05:20:09.257428+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L2",
+  "stakeholder_intent": "Structured Markdown-in-Postgres agent profile format as single source of truth for agent identity",
+  "duplicate_check": true,
+  "integrity_hash": "27633113a3a7346e"
+}

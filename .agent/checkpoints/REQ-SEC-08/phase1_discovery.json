@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-08",
+  "agent": "product-manager",
+  "timestamp": "2026-02-25T20:24:56.273243+00:00",
+  "workflow": "create-req",
+  "layer_identified": "SEC",
+  "stakeholder_intent": "Per-tenant policy resolution for MFA recovery codes instead of hardcoded Org 0",
+  "duplicate_check": true,
+  "integrity_hash": "a9e28e033c92ea0e"
+}

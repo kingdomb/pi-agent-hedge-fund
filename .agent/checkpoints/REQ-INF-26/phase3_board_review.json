@@ -1,0 +1,39 @@
+{
+  "phase": 3,
+  "phase_name": "board_review",
+  "req_id": "REQ-INF-26",
+  "agent": "orchestrator",
+  "timestamp": "2026-03-19T04:28:54.586024+00:00",
+  "workflow": "create-req",
+  "orchestrator_invoked": true,
+  "board_votes": {
+    "board_csa_architect": {
+      "decision": "APPROVE",
+      "notes": "Time-partitioned JSONB table is the right pattern for high-volume event storage. Monthly partitions with 90-day retention keeps size manageable. Indexes on (event_type, created_at) and (org_id, created_at) cover the primary query patterns. Mirrors audit_logs pattern.",
+      "timestamp": "2026-03-19T04:28:21.569418+00:00"
+    },
+    "board_ciso_cybersecurity": {
+      "decision": "APPROVE",
+      "notes": "PII boundary is well-defined. RLS policies enforce Org-0-only cross-tenant access. Anti-AC explicitly forbids prompt/chat/task content in telemetry. INSERT-only policy on telemetry table is appropriate.",
+      "timestamp": "2026-03-19T04:28:32.530177+00:00"
+    },
+    "board_caio_fullstack": {
+      "decision": "APPROVE",
+      "notes": "No AI/VRAM impact. Telemetry is passive metadata collection. Async write path ensures no inference latency impact. Batch flush at 500ms is conservative enough.",
+      "timestamp": "2026-03-19T04:28:35.042493+00:00"
+    },
+    "board_vp_ops_devops": {
+      "decision": "APPROVE",
+      "notes": "Monthly partitioning + 90-day retention prevents unbounded growth. Async ingestion means telemetry failure doesnt crash the app. Dead-letter to stderr is appropriate for v1.",
+      "timestamp": "2026-03-19T04:28:39.924665+00:00"
+    },
+    "board_red_team": {
+      "decision": "APPROVE_WITH_CONDITIONS",
+      "notes": "Conditions: (1) payload JSONB must be validated server-side \u2014 reject if >50KB per event to prevent storage abuse. (2) Rate-limit INSERT to 1000 events/min per org to prevent telemetry flooding DoS. (3) Add a censor utility wrapper on payload before INSERT to catch accidental PII leaks. Failure scenarios: unbounded JSONB growth if no size check, telemetry flooding from compromised tenant, accidental prompt content leak via poorly-structured tool event.",
+      "timestamp": "2026-03-19T04:28:41.223506+00:00"
+    }
+  },
+  "quorum_reached": true,
+  "integrity_hash": "724a8ccc9e7a7c4c",
+  "approval_percentage": 100.0
+}

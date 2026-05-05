@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-SEC-14",
+  "agent": "product-manager",
+  "timestamp": "2026-04-15T22:16:42.862758+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "4dfde0118b7eda86"
+}

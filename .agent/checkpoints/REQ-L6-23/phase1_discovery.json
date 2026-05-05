@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-23",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:08:58.415363+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Legal audit cold storage",
+  "duplicate_check": true,
+  "integrity_hash": "6dcd10e8b8a50862"
+}

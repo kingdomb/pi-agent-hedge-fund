@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-INF-22",
+  "agent": "product-manager",
+  "timestamp": "2026-02-13T16:55:46.145335+00:00",
+  "workflow": "create-req",
+  "layer_identified": "INF",
+  "stakeholder_intent": "Store agent profiles as Markdown for LLM readability + JSONB for RLS.",
+  "duplicate_check": true,
+  "integrity_hash": "3bc4cfa63b4019b9"
+}

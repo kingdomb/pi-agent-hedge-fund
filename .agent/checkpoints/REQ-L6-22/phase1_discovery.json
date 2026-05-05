@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-22",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:08:56.762011+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Trust-gated financial spending limits",
+  "duplicate_check": true,
+  "integrity_hash": "e7d43565af666553"
+}

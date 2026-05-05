@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-SEC-13",
+  "agent": "product-manager",
+  "timestamp": "2026-04-11T01:07:25.535943+00:00",
+  "workflow": "create-req",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "effort_estimate": true,
+  "integrity_hash": "f4af47388adc31b2"
+}

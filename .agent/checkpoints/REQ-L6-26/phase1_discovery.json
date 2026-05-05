@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-26",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:15:21.337910+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Financial Controls Dashboard UI",
+  "duplicate_check": true,
+  "integrity_hash": "01da284cccee21f9"
+}

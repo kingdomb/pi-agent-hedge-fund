@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L1-32",
+  "agent": "product-manager",
+  "timestamp": "2026-02-27T02:44:16.256845+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L1",
+  "stakeholder_intent": "Admin UI for MFA setup enable disable QR code display and recovery code management",
+  "duplicate_check": true,
+  "integrity_hash": "7643b4df0cac09dc"
+}

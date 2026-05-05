@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-12",
+  "agent": "product-manager",
+  "timestamp": "2026-02-12T18:52:42.587965+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L2",
+  "stakeholder_intent": "Create a persistent Concierge agent for tenant onboarding and guidance.",
+  "duplicate_check": true,
+  "integrity_hash": "07dc503a9239c4db"
+}

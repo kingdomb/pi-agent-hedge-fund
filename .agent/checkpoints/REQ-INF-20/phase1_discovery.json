@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-INF-20",
+  "agent": "product-manager",
+  "timestamp": "2026-02-13T01:36:33.815594+00:00",
+  "workflow": "create-req",
+  "layer_identified": "INF",
+  "stakeholder_intent": "Dedicated sandbox tenant with is_sandbox flag for safe testing without polluting production data",
+  "duplicate_check": true,
+  "integrity_hash": "99668c49349668de"
+}

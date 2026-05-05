@@ -1,0 +1,34 @@
+{
+  "phase": 3,
+  "phase_name": "board_review",
+  "req_id": "REQ-L6-32",
+  "agent": "project-planner",
+  "timestamp": "2026-02-24T23:02:16.588700+00:00",
+  "workflow": "create-req",
+  "orchestrator_invoked": true,
+  "board_votes": {
+    "board_csa_architect": {
+      "decision": "APPROVE",
+      "notes": "Valid JSON routing approach.",
+      "timestamp": "2026-02-24T23:02:09.540878+00:00"
+    },
+    "board_ciso_cybersecurity": {
+      "decision": "APPROVE",
+      "notes": "Complies with Org 0 firewall boundaries.",
+      "timestamp": "2026-02-24T23:02:09.785012+00:00"
+    },
+    "board_caio_fullstack": {
+      "decision": "APPROVE",
+      "notes": "The Klarna check is a brilliant safety valve.",
+      "timestamp": "2026-02-24T23:02:10.034498+00:00"
+    },
+    "board_vp_ops_devops": {
+      "decision": "APPROVE",
+      "notes": "Easy wizard UX reduces onboarding friction.",
+      "timestamp": "2026-02-24T23:02:10.287092+00:00"
+    }
+  },
+  "quorum_reached": true,
+  "integrity_hash": "16c5bdd4d28cf5f4",
+  "approval_percentage": 100.0
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L1-29",
+  "agent": "product-manager",
+  "timestamp": "2026-02-04T19:38:32.585382+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L1",
+  "stakeholder_intent": "Profile dropdown menu with secure logout functionality",
+  "duplicate_check": true,
+  "integrity_hash": "0b6211c8b63af36d"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L6-32",
+  "agent": "project-planner",
+  "timestamp": "2026-02-24T23:02:02.329650+00:00",
+  "workflow": "create-req",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "effort_estimate": true,
+  "integrity_hash": "a7334d5e7e7354d7"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-L6-30",
+  "agent": "qa-engineer",
+  "timestamp": "2026-03-03T16:10:11.970236+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "c46f281c5a27c77c"
+}

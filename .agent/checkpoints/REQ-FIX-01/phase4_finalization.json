@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-FIX-01",
+  "agent": "backend-specialist",
+  "timestamp": "2026-02-10T12:02:19.590405+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "8089f2ff1f43272b"
+}

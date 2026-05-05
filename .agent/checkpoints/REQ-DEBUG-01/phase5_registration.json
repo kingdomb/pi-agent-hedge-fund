@@ -1,0 +1,13 @@
+{
+  "phase": 5,
+  "phase_name": "registration",
+  "req_id": "REQ-DEBUG-01",
+  "agent": "backend-specialist",
+  "timestamp": "2026-02-10T11:45:45.998904+00:00",
+  "workflow": "create-req",
+  "ledger_updated": true,
+  "user_stories_updated": true,
+  "phase_docs_updated": true,
+  "github_issue_created": true,
+  "integrity_hash": "e4f221d2af403da3"
+}

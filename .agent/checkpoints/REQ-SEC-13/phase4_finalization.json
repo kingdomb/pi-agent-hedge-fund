@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-SEC-13",
+  "agent": "orchestrator",
+  "timestamp": "2026-04-11T01:09:43.940564+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "8de8835a9181b733"
+}

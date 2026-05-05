@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L6-08",
+  "agent": "product-manager",
+  "timestamp": "2026-04-08T06:49:15.760137+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "M",
+  "moscow_priority": "MUST",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "23fb5028eb3c3e90"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-10",
+  "agent": "product-manager",
+  "timestamp": "2026-03-03T16:56:52.594587+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L2",
+  "stakeholder_intent": "Create a system registry for agent templates.",
+  "duplicate_check": true,
+  "integrity_hash": "1283722f46de3d44"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-L2-08",
+  "agent": "security-auditor",
+  "timestamp": "2026-04-15T01:10:39.599257+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "175973bba4af471a"
+}

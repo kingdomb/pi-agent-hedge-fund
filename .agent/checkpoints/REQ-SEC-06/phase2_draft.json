@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-SEC-06",
+  "agent": "test-engineer",
+  "timestamp": "2026-02-16T21:19:02.127804+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "S",
+  "moscow_priority": "MUST",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "b9149b1625a1be9c"
+}

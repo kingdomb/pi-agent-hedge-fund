@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-INF-23b",
+  "agent": "product-manager",
+  "timestamp": "2026-03-26T01:00:49.179693+00:00",
+  "workflow": "create-req",
+  "duplicate_check": true,
+  "layer_identified": true,
+  "stakeholder_intent": true,
+  "integrity_hash": "d96cf5a25d68543c"
+}

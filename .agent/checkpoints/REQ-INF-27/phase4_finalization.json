@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-INF-27",
+  "agent": "qa-engineer",
+  "timestamp": "2026-04-10T04:02:07.412797+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "9a417809fcc326fb"
+}

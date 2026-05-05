@@ -1,0 +1,34 @@
+{
+  "phase": 3,
+  "phase_name": "board_review",
+  "req_id": "REQ-L6-21",
+  "agent": "orchestrator",
+  "timestamp": "2026-02-12T19:02:56.988353+00:00",
+  "workflow": "create-req",
+  "orchestrator_invoked": true,
+  "board_votes": {
+    "board_csa_architect": {
+      "decision": "APPROVE",
+      "notes": "Mandatory for compliance.",
+      "timestamp": "2026-02-12T19:02:54.348019+00:00"
+    },
+    "board_ciso_cybersecurity": {
+      "decision": "APPROVE",
+      "notes": "Core security requirement.",
+      "timestamp": "2026-02-12T19:02:54.608624+00:00"
+    },
+    "board_caio_fullstack": {
+      "decision": "APPROVE",
+      "notes": "Useful for debugging agent logic.",
+      "timestamp": "2026-02-12T19:02:55.536409+00:00"
+    },
+    "board_vp_ops_devops": {
+      "decision": "APPROVE",
+      "notes": "Needed for cost attribution.",
+      "timestamp": "2026-02-12T19:02:56.284671+00:00"
+    }
+  },
+  "quorum_reached": true,
+  "integrity_hash": "2ec37f803b9ac5da",
+  "approval_percentage": 100.0
+}

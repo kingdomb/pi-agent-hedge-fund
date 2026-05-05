@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-11",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:09:03.699407+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "Org 0 Financial Firewall",
+  "duplicate_check": true,
+  "integrity_hash": "dae8f4bb9282cf16"
+}

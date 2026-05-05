@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-08",
+  "agent": "product-manager",
+  "timestamp": "2026-04-08T06:47:13.568835+00:00",
+  "workflow": "create-req",
+  "duplicate_check": true,
+  "layer_identified": true,
+  "stakeholder_intent": true,
+  "integrity_hash": "89f7d70a3aa76f79"
+}

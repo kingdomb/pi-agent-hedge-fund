@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-SEC-09",
+  "agent": "product-manager",
+  "timestamp": "2026-03-01T03:32:42.082138+00:00",
+  "workflow": "create-req",
+  "layer_identified": "SEC",
+  "stakeholder_intent": "Org-level MFA enforcement policy requiring all members to enable MFA",
+  "duplicate_check": true,
+  "integrity_hash": "0dbbb844d8be8a18"
+}

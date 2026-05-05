@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-27",
+  "agent": "security-auditor",
+  "timestamp": "2026-02-12T19:18:53.793021+00:00",
+  "workflow": "create-req",
+  "layer_identified": "6",
+  "stakeholder_intent": "E-Sign Confirmation",
+  "duplicate_check": true,
+  "integrity_hash": "3330f2a5c837fbd2"
+}

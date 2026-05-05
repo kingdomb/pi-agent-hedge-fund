@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-13",
+  "agent": "product-manager",
+  "timestamp": "2026-02-12T20:31:00.071225+00:00",
+  "workflow": "create-req",
+  "layer_identified": "2",
+  "stakeholder_intent": "Unified multi-agent chat threads",
+  "duplicate_check": true,
+  "integrity_hash": "53820302b6c4df3b"
+}

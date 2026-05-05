@@ -1,0 +1,39 @@
+{
+  "phase": 3,
+  "phase_name": "board_review",
+  "req_id": "REQ-OPS-11",
+  "agent": "orchestrator",
+  "timestamp": "2026-03-18T21:16:09.085320+00:00",
+  "workflow": "create-req",
+  "orchestrator_invoked": true,
+  "board_votes": {
+    "board_csa_architect": {
+      "decision": "APPROVE",
+      "notes": "Clean scope \u2014 UI wrapper around existing CLI logic. No new schema. Bundles naturally with OPS-09/OPS-10. Org 0 guard pattern already proven in admin.ts.",
+      "timestamp": "2026-03-18T21:15:40.559931+00:00"
+    },
+    "board_ciso_cybersecurity": {
+      "decision": "APPROVE",
+      "notes": "Security model sound. Org 0 check + privilegeGate enforced on all routes. API key never persisted after reveal. Atomic transaction prevents zombie tenants. Sandbox excluded from tenant list.",
+      "timestamp": "2026-03-18T21:15:42.872516+00:00"
+    },
+    "board_caio_fullstack": {
+      "decision": "APPROVE",
+      "notes": "No AI/VRAM impact. Pure CRUD panel. No new models or inference. Frontend-only addition to existing admin dashboard.",
+      "timestamp": "2026-03-18T21:15:45.950956+00:00"
+    },
+    "board_vp_ops_devops": {
+      "decision": "APPROVE",
+      "notes": "Operationally sound. Replaces CLI-only workflow with dashboard. Reduces bus factor (no SSH needed). Audit logging covers lifecycle actions. 3AM test: panel is read-only at night, no auto-provisioning.",
+      "timestamp": "2026-03-18T21:15:51.051375+00:00"
+    },
+    "board_red_team": {
+      "decision": "APPROVE_WITH_CONDITIONS",
+      "notes": "APPROVE WITH CONDITIONS: (1) Verify tenant list query cannot be tricked by RLS bypass \u2014 use queryAsAdmin but validate Org 0 in middleware layer. (2) Rate-limit provisioning endpoint to prevent mass-creation abuse. (3) One-time key reveal: ensure key is not returned in subsequent GET responses or cached by browser. Anti-AC additions: MUST NEVER allow more than 10 tenant provisions per hour. MUST NEVER cache API key in browser localStorage/sessionStorage.",
+      "timestamp": "2026-03-18T21:15:51.228015+00:00"
+    }
+  },
+  "quorum_reached": true,
+  "integrity_hash": "85cf556aef8a78c4",
+  "approval_percentage": 100.0
+}

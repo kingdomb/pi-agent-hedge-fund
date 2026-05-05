@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L2-08",
+  "agent": "product-manager",
+  "timestamp": "2026-04-15T01:01:42.939046+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L2",
+  "stakeholder_intent": "Promote agent profile configs including vector steering data from sandbox to Org 0",
+  "duplicate_check": true,
+  "integrity_hash": "392edf440547e5e5"
+}

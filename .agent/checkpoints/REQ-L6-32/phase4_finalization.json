@@ -1,0 +1,12 @@
+{
+  "phase": 4,
+  "phase_name": "finalization",
+  "req_id": "REQ-L6-32",
+  "agent": "project-planner",
+  "timestamp": "2026-02-24T23:02:16.829850+00:00",
+  "workflow": "create-req",
+  "ledger_format_valid": true,
+  "version_aligned": true,
+  "ids_unique": true,
+  "integrity_hash": "c5d23f27e13e4e02"
+}

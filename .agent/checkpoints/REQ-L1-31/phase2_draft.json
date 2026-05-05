@@ -1,0 +1,13 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L1-31",
+  "agent": "frontend-specialist",
+  "timestamp": "2026-02-16T03:14:34.960049+00:00",
+  "workflow": "create-req",
+  "effort_estimate": "XS",
+  "moscow_priority": "SHOULD",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "integrity_hash": "f9d10d7965f8217c"
+}

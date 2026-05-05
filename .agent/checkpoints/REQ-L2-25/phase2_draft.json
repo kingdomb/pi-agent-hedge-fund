@@ -1,0 +1,12 @@
+{
+  "phase": 2,
+  "phase_name": "draft",
+  "req_id": "REQ-L2-25",
+  "agent": "documentation-writer",
+  "timestamp": "2026-03-29T19:35:33.488167+00:00",
+  "workflow": "create-req",
+  "user_story": true,
+  "acceptance_criteria": true,
+  "effort_estimate": true,
+  "integrity_hash": "e37b74fe42a0baf7"
+}

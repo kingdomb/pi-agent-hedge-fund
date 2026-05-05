@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "phase_name": "discovery",
+  "req_id": "REQ-L6-20",
+  "agent": "product-manager",
+  "timestamp": "2026-03-01T20:32:19.552979+00:00",
+  "workflow": "create-req",
+  "layer_identified": "L6",
+  "stakeholder_intent": "Enforce tier limits (STARTER, PRO, ENTERPRISE) on agent counts and concurrent executions.",
+  "duplicate_check": true,
+  "integrity_hash": "e991db304925fff7"
+}
