@@ -2,8 +2,8 @@
   "phase": 3,
   "phase_name": "board_review",
   "req_id": "REQ-HF-01",
-  "agent": "orchestrator",
-  "timestamp": "2026-05-05T04:57:07.199394+00:00",
+  "agent": "backend-specialist",
+  "timestamp": "2026-05-05T05:26:18.663405+00:00",
   "workflow": "create-req",
   "orchestrator_invoked": true,
   "board_votes": {
@@ -34,6 +34,6 @@
     }
   },
   "quorum_reached": true,
-  "integrity_hash": "6ba49515278b3907",
+  "integrity_hash": "980439622f3f8262",
   "approval_percentage": 100.0
 }

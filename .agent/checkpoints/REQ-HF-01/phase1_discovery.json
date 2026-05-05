@@ -3,10 +3,10 @@
   "phase_name": "discovery",
   "req_id": "REQ-HF-01",
   "agent": "product-manager",
-  "timestamp": "2026-05-05T04:32:59.718563+00:00",
+  "timestamp": "2026-05-05T05:22:14.662244+00:00",
   "workflow": "create-req",
   "duplicate_check": true,
   "layer_identified": true,
   "stakeholder_intent": true,
-  "integrity_hash": "a7e18a84bbf752f2"
+  "integrity_hash": "120cdafa7c0c950f"
 }

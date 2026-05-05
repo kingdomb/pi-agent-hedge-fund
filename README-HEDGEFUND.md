@@ -139,6 +139,8 @@ This document defines the overarching 5-phase roadmap for transforming the Tradi
 3. **API Circuit Breaker:** Daily LLM spend cap — halts entire system if exceeded
 4. **Price Sanity Check:** Cancel trade if AI price assumption deviates > X% from live price
 5. **Paper First:** NEVER go live without ≥ 3 weeks of profitable paper trading
+6. **PDT & Settlement Guard (Regulation):** Because the live account starts under $25,000, US regulations apply. If using a **Margin account**, `alpaca_executor.py` must track and strictly enforce the **Pattern Day Trader (PDT) rule** — maximum 3 day-trades per rolling 5 business days. If using a **Cash account**, the system must track **T+1 settlement** and never attempt to purchase using unsettled funds. Violating PDT results in a 90-day account restriction. This guard is non-negotiable and must be implemented before any live trading begins.
+7. **Hardcoded Slippage in Backtesting:** In Phase 3, the batch backtester must artificially degrade the AI's execution price by a fixed slippage factor (default: **0.1%–0.5%** of trade value) on every simulated fill. The AI assumes it buys or sells at the exact historical close price — in reality, market orders fill worse. A backtest that ignores slippage will appear profitable but lose money live. This degradation must be a configurable constant, not optional.
 
 ---
 

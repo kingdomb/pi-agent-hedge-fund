@@ -3,7 +3,7 @@
 ## Metadata
 - **ID:** REQ-HF-01
 - **Name:** Local Infrastructure & Zero-Cost Dev Loop
-- **Status:** DRAFT
+- **Status:** IMPLEMENTED
 - **Priority:** MUST
 - **Effort:** M
 - **Layer:** HF-1 (Hedge Fund Phase 1 — Local Infrastructure)
