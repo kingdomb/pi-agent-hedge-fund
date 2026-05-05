@@ -2,11 +2,11 @@
   "phase": 2,
   "phase_name": "draft",
   "req_id": "REQ-HF-01",
-  "agent": "product-manager",
-  "timestamp": "2026-05-05T04:55:55.566607+00:00",
+  "agent": "test-engineer",
+  "timestamp": "2026-05-05T05:23:09.778803+00:00",
   "workflow": "create-req",
   "user_story": true,
   "acceptance_criteria": true,
   "effort_estimate": true,
-  "integrity_hash": "24a96fe8360e9209"
+  "integrity_hash": "12e77d0a36c35f40"
 }

@@ -18,7 +18,7 @@
 ## Step 2: Implementation Queue
 
 ### Wave 1 — Phase 1 (Local Dev)
-- [ ] `/implement-req REQ-HF-01` — Local Infrastructure & Zero-Cost Dev Loop
+- [x] `/implement-req REQ-HF-01` — Local Infrastructure & Zero-Cost Dev Loop *(smoke tests: 33/33 PASS)*
 
 ### Wave 2 — Phase 2 (Cloud APIs) *(locked — awaiting Phase 1 gate)*
 - [ ] `/implement-req REQ-HF-02` — Cloud API Integration & Cost Profiling *(pending)*
