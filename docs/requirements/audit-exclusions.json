@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "project": "pi_agent_hedge-fund",
+  "exclusions": [
+    {
+      "req_id": "REQ-HF-01",
+      "classification": "INFRA",
+      "reason": "Shell scripts and environment scaffolding. Verified via smoke test (./start.sh --dry-run) and manual end-to-end run. Not subject to unit test coverage.",
+      "artifacts": ["start.sh", "stop.sh", "cost-profiler.sh", ".env.dev.example"]
+    }
+  ]
+}
